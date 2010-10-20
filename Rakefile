@@ -5,13 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "tappie"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Enhanced tap or tap on steroids as some would prefer.}
+    gem.description = %Q{Allows tapping without the extra syntax noise of the parameter. Fully compatible with ruby 1.8 and 1.9.}
     gem.email = "guilherme.silveira@caelum.com.br"
-    gem.homepage = "http://github.com/guilhermesilveira/tappie"
-    gem.authors = ["guilherme silveira"]
+    gem.homepage = "http://github.com/caelum/tappie"
+    gem.authors = ["Guilherme Silveira"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
