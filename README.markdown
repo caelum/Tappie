@@ -21,7 +21,7 @@ It allows you to remove the syntax noise from that extra variable:
 
 Either copy tappie.rb code to your project or gem install it:
 
-	gem install relata
+	gem install tappie
 
 Have fun!
 
