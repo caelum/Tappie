@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "tappie"
-    gem.version = "0.9"
-    gem.summary = %Q{Enhanced tap or tap on steroids as some would prefer.}
+    gem.version = "1.0.0"
+    gem.summary = %Q{Supports another clojure for tapping: acessing the object itself.}
     gem.description = %Q{Allows tapping without the extra syntax noise of the parameter. Fully compatible with ruby 1.8 and 1.9.}
     gem.email = "guilherme.silveira@caelum.com.br"
     gem.homepage = "http://github.com/caelum/tappie"

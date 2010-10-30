@@ -8,6 +8,14 @@ It allows you to remove the syntax noise from that extra variable:
 	# 18
 	# Guilherme Silveira
 	
+## Scope ##
+
+Because the invocation scope is the object itself, accessing instance variables result in internal access to the object, not the object scope where the method tap was invoked: this
+can be what you desire or not. If you want to access the old scope, use tap as it was used before:
+
+	@old_scope = 10
+	puts "Guilherme Silveira".tap { |s| puts s.size; puts @old_scope }
+	
 ## Benefits ##
 
 	Less noise if you are not using @variables of the current scope.
